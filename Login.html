@@ -1,0 +1,93 @@
+<!DOCTYPE html>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Login Page </title>   
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<style> 
+
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  
+} 
+.container 
+{
+  width: 50%;
+  margin: auto;
+  padding: 70px 20px;   
+   background-color:darkgray;  
+  position: relative;
+  border-radius: 10px;
+    
+    } 
+
+.fa-user {
+    position: absolute;
+    top: 28%;
+    left: 4%;
+
+  }
+   .fa-eye {
+    position: absolute;
+    top: 50%;
+    left: 4%;
+
+  }
+label{
+  font-weight: bold;
+  font-size: 18px;
+
+}
+button {   
+       background-color: black;   
+       width: 100%;  
+        color: #fff;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer; 
+        font-weight: bold;
+        font-size: 20px;  
+         }   
+    
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        color:black;  
+        background-color: #fff;
+        transition: 0.6s; 
+}   
+    
+        </style>   
+</head> 
+
+<body>    
+    <center> <h1>  Login Form </h1> </center>   
+    <form>  
+        <div class="container">   
+            <label>Username : </label> 
+             <i class="fa-solid fa-user"></i>&nbsp;&nbsp;&nbsp;   
+            <input type="text" placeholder="Enter Username" name="username" required>  
+            <label>Password : </label> 
+            <i class="fa-solid fa-eye"></i>   
+            <input type="password" placeholder="Enter Password" name="password" required>  
+            <button type="submit">Login</button>   
+            <input type="checkbox" checked="checked"> Remember me   
+             
+            Forgot <a href="#"> password? </a>   
+        </div>   
+    </form>     
+</body>     
+</html>  
+
+
+
+
+	

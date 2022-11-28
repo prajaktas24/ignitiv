@@ -1,0 +1,130 @@
+<!DOCTYPE html>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Login Page </title>   
+<head>
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
+
+</head>
+
+<style> 
+
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  
+} 
+  table 
+        {
+                background-color: darkgrey;
+                margin: 0 auto;
+                padding: 30px;
+
+               
+            }
+            table tr td {
+                padding: 10px;
+            }
+            table .text{
+                padding: 30px;
+                font-weight: bold;
+            }
+            
+            span{
+                color: red;
+            }  
+ button:hover {   
+        color:black;  
+        background-color: #fff;
+        transition: 0.6s; 
+}   
+input:valid
+{
+    background-color: yellow;
+    outline: yellow;
+}
+
+    
+        </style>   
+
+
+</head> 
+
+<body>    
+    
+    <table>
+        
+        
+        <form>
+ <tr class="text"><td>Online Registration Form</td></tr>
+            <tr>
+                <td>
+                    <label for="name">
+                        User Name <span>*</span>
+                    </label>
+                </td>
+                <td><input type="text" name="username" placeholder="Enter User Name" required="required" pattern="[A-Za-z\s]+"/>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="password">
+                      Password <span>*</span>
+                    </label>
+                </td>
+                <td><input type="password" name="password" placeholder="Enter The Password"  required  />
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Address">
+                       Address :
+                    </label>
+                </td>
+                <td> <textarea rows="5" cols="22" name="Address" placeholder="Enter The Address" required></textarea>   
+                </td>
+            </tr>
+            <tr>
+                <td><label for="country">
+                       Country
+                    </label>
+                </td>
+                <td><input type="text" name="country" placeholder="Enter Country Name" list="countrylist" required > 
+                     <datalist id="countrylist">
+                        <option>India</option>
+                         <option>America</option>
+                         <option>China</option>
+                   <option>Ireland</option>
+                  </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Gender">
+                       Gender <span>*</span>
+                    </label>
+                </td>
+                <td><input type="radio" name="male"/ required> Male <br>
+                <input type="radio" name="female"/> Female</td>  
+              
+            </tr>
+             <tr>
+                <td><label for="Language">
+                       Language Known <span>*</span>
+                    </label>
+                </td>
+                <td><input type="checkbox" name="lang" required/> Hindhi <br>
+                <input type="checkbox" name="lang"/> English<br>
+                 <input type="checkbox" name="lang"/> Merathi<br>
+            </td>  
+              
+            </tr>
+            <tr>
+                <td><input type="image" src="submit.jpg" ></td>
+                  <td><input type="reset" value="Reset"></td>
+            </tr>
+        </form>
+    </table>
+    
+</body>     
+</html>  
+
+
+
+
+	

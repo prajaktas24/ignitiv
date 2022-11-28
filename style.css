@@ -1,0 +1,449 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	
+    font-family: Poppins,sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    color: #000;
+	     }
+
+	                    /********************************  Header Css **************/
+
+
+ .container  {
+				height: 800px;
+				background-image: url(slide-s.png),url(slide-y.png ),url(Digital-Transformation.jpg);
+				background-position: -360px 80px, 1050px 90px, center;
+				background-repeat: no-repeat,no-repeat,no-repeat;
+				background-size: 600px ,600px ,cover;
+				position: relative;
+
+			}
+			.text{
+				position: absolute;
+				top: 40%;
+				left: 10%;
+				font-size: 27px;
+				text-align: center;
+				color: #fff;
+				font-weight: 200;
+				
+			}
+			.btn{
+				border: 1px solid #fff;
+				padding: 10px 30px;
+				font-size: 25px;
+				font-weight: 400;
+				cursor: pointer;
+			}
+			.btn:hover{
+				background-color: #fff;
+				color: black;
+				transition: 1s;
+
+			}
+
+			.logo{
+				padding-left: 10px;
+				padding-top: 15px;
+				color: #fff;
+			}
+
+        /**************************** Navigtion ***************/
+
+.demo{
+    display: flex;
+    margin-left: 634px;
+
+}
+.dropbtn{
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown-1 .dropdown-2 .dropdown-3 .dropdown-4 .dropdown-5 .dropdown-6{
+    position: relative;
+  display: inline-block;
+  / justify-content: space-between; /
+ 
+} 
+
+.dropdown-1 a, .dropdown-2 a, .dropdown-3 a, .dropdown-4 a, .dropdown-5 a, .dropdown-6 a{
+   text-decoration: none;
+   color: white;
+   font-weight: 600;
+   font-size: 15px;
+   
+} 
+
+.dropbtn{
+    display: flex;
+    justify-content: space-around;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: black;
+    z-index: 1;
+    padding: 40px;
+}
+
+.dropdown-content a{
+    color: white;
+    text-decoration: none;
+    line-height: 2;
+    display: block;
+}
+
+.dropdown a:hover{
+    display: block;
+    text-decoration:underline;
+    border-bottom: 1px solid #fff;
+}
+
+
+
+
+.dropdown-1:hover .dropdown-content {display: block;}
+.dropdown-2:hover .dropdown-content {display: block;}
+.dropdown-3:hover .dropdown-content {display: block;}
+.dropdown-4:hover .dropdown-content {display: block;}
+.dropdown-5:hover .dropdown-content {display: block;}
+.dropdown-6:hover .dropdown-content {display: block;}
+
+.sub-head{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 40px;
+}
+.sub-head h1 {
+	padding-top: 30px;
+	padding-bottom: 50px;
+	text-align: center;
+	font-size: 40px;
+}
+
+.sub-head p{
+	margin: 0 200px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 25px;
+	
+}
+ .sub-head h5{
+	font-weight:bold;
+}
+.section-text{
+	text-align: center;
+}
+
+
+/********************** Section 1 CSS **************/
+
+.inner-holder{
+	width: 35%;
+	color: #fff;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+
+}
+.card1,.card2,.card3{
+	padding: 50px;
+	box-sizing: border-box;
+    height: 400px;
+    color: #fff;
+
+}
+.card1{
+	background-color: rgb(94, 34, 186);
+}
+.card2{
+	background-color: black;
+	border: 1px solid #fff;
+}
+.card2 .qodef-btn-outline {
+	border: 1px solid #fff;
+	color: #fff;
+}
+.card3{
+	
+	
+	background-color: blue;
+}
+.section-3{
+	display: flex;
+	text-align: justify;
+}
+.svg-wrapper{
+	
+	text-align: justify;
+}
+.container-6{
+	display: flex;
+}
+.inner-img{
+	width: 50%;
+	height:350px;
+	background-color: blue;
+}
+.inner-text{
+	width: 50%;
+	background-color: #fff;
+	height:350px ;
+	color: black;
+}
+.section-7{
+	display: flex;
+	background-color: #ff0437;
+	padding: 120px;
+
+}
+.div-1,.div-2{
+	width: 35%;
+   border-right: 2px dotted #fff;
+	
+	
+}
+.div-1 span{
+	font-weight: 600;
+	 font-size: 55px;
+	 text-align: center;
+	 color: #fff;
+
+
+}
+.div-2 span{
+	font-weight: 600;
+	 font-size: 45px;
+	 text-align: center;
+
+}
+.div-3 span{
+	font-weight: 600;
+	 font-size: 45px;
+	 text-align: center;
+
+}
+.div-2 ,.div-1,.div-3 p{
+	color: #fff;
+
+}
+.div-3 span{
+	font-weight: 600;
+	 font-size: 55px;
+	 text-align: center;
+	 color: #fff;
+
+}
+.div-2 ,.div-1,.div-3{
+
+	padding: 5px;
+	text-align: center;
+}
+.brand,.champion,.project{
+
+	font-size: 20px;
+}
+
+
+.single-img-wrapper{
+	display: flex;
+}
+
+.inner{
+	background-color: #f4f4f4;
+	width: 100%;
+    height: 400px;
+    display: inline-block;
+}
+.qodef-ib-title{
+	font-size: 30px;
+    margin: 10px;
+}
+.idb-holder{
+	display: flex;
+	padding: 20px;
+}
+.empty-div{
+	
+	content: "";
+    width: 50px;
+    border-top: 1px solid #000;
+    position: relative;
+    top: 17px;
+    display: table-cell;
+    padding: 0 20px;
+    margin: 0 20px;
+
+}
+.btn-text{
+
+padding: 10px;
+
+}
+.btn-text a{
+text-decoration: none;	
+}
+.div-left{
+	align-items: center;
+	justify-content: center;
+   flex-direction: column;
+}
+.qodef-btn:hover{
+	background-color: black;
+	color: #fff;
+	font-weight: bold;
+}
+.qodef-btn-1:hover{
+	background-color: #fff;
+	color: black;
+	font-weight: bold;
+
+}
+
+.inner-text{
+	
+	justify-content: center;
+	background-color: #f4f4f4;
+}
+.qodef-btn-outline{
+	color: #000;
+    background-color: transparent;
+    border: 1px solid #000;
+}
+
+.qodef-btn-1{
+	position: relative;
+    display: inline-block;
+    width: auto;
+    
+    font-weight: 600;
+    outline: 0;
+    box-sizing: border-box;
+    
+    transition: 1s;
+    padding: 13px 42px;
+    font-size: 15px;
+    line-height: 25px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    width: auto;
+    margin: 0;
+    
+    letter-spacing: 0;
+    font-weight: 600;
+    outline: 0;
+   
+    
+
+}
+.qodef-btn{
+	position: relative;
+    display: inline-block;
+    width: auto;
+    margin: 0;
+    font-family: inherit;
+    letter-spacing: 0;
+    font-weight: 600;
+    outline: 0;
+    box-sizing: border-box;
+    
+    transition: .4s cubic-bezier(.25,.46,.45,.94);
+    padding: 13px 42px;
+    font-size: 15px;
+    line-height: 25px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    width: auto;
+    margin: 0;
+    font-family: inherit;
+    letter-spacing: 0;
+    font-weight: 600;
+    outline: 0;
+    box-sizing: border-box;
+    
+    
+   
+}
+
+
+  /************************  Footer CSS ******************/
+              
+.footer-page{
+	
+	background-image: url(Footer.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #222222;
+    height: 400px;
+    width: 100%;
+}
+.footer-top-inner{
+	display: flex;
+	color: #fff;
+	padding: 50px;
+}
+.footer-title{
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.footer-1,.footer-2,.footer-3,.footer-4{
+	width: 25%;
+
+}
+.footer{
+	background-color: #080822;
+	border-top: 2px solid #fff;
+	height: 80px;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+
+}
+.footer span p{
+	margin-top: 30px;
+	justify-content: space-between;
+	text-align: center;
+	word-spacing: 1px;
+}
+.footer span  a{
+	text-decoration: none;
+	color: blue;
+	
+}
+.footer-2 ul li  span{
+	color: blue;
+	margin-left: 10px;
+}
+.footer-2 ul li  span a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.footer-1,.footer-2,.footer-3{
+	min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    box-sizing: border-box;
+}
+.footer-2,.footer-3 ul li 
+{
+	list-style: none;
+}
+.footer-2,.footer-3 ul li  a{
+	text-decoration: none;
+	color: #fff;
+}
+
